@@ -7,17 +7,17 @@ Devloped using Spring Boot at back-end and some modules:
 * Spring Data JPA;
 * Spring Validation;
 
-Configure Spring Datasource, JPA, App properties
+<b>Configure Spring Datasource and JPA</b>
 
 Open src/main/resources/application.properties
 
-For PostgreSQL:
-spring.datasource.url= jdbc:postgresql://localhost:5432/postgres
-spring.datasource.username= postgres
-spring.datasource.password= 123456
-spring.jpa.hibernate.ddl-auto= update
+<b>For PostgreSQL:</b><br>
+spring.datasource.url= jdbc:postgresql://localhost:5432/postgres<br>
+spring.datasource.username= postgres<br>
+spring.datasource.password= 123456<br>
+spring.jpa.hibernate.ddl-auto= update<br>
 
-spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.driver-class-name=org.postgresql.Driver <br>
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 ## Run Spring Boot application
