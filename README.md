@@ -7,25 +7,11 @@ Devloped using Spring Boot at back-end and some modules:
 * Spring Data JPA;
 * Spring Validation;
 
-<b>– If you want to use PostgreSQL:</b>
-<br>
-<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-</dependency>
-
-
-– or MySQL:
-
-<dependency>
-  <groupId>mysql</groupId>
-  <artifactId>mysql-connector-java</artifactId>
-  <scope>runtime</scope>
-</dependency>
 
 Configure Spring Datasource, JPA, App properties
+
 Open src/main/resources/application.properties
+
 For PostgreSQL:
 spring.datasource.url= jdbc:postgresql://localhost:5432/mydb
 spring.datasource.username= postgres
